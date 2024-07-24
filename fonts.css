@@ -1,0 +1,28 @@
+@font-face {
+    font-family: font1;
+    src: url(https://www.microsoft.com/mwf/_h/v3.54/mwf.app/fonts/mwfmdl2-v3.54.woff);
+}
+@font-face {
+    font-family: font2;
+    src: url(https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2);
+}
+@font-face {
+    font-family: font4;
+    src: url(https://azure.microsoft.com/etc.clientlibs/onecloud/clientlibs/clientlib-mwf-new/resources/fonts/MWFFluentIcons.woff2);
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1000px;
+}
+ul,h2,li{
+margin: 0;
+padding: 0;
+list-style: none;
+}

@@ -1,0 +1,29 @@
+@media (min-width:540px){
+    .limitless-innovation-350px{
+        padding: 0 64px;
+       margin-top: 32px;
+    }
+    .main-top{
+    padding-bottom: 56px;
+    min-height: 580px;
+    background: #e7f3fa;
+   
+}
+.button-flex{
+    flex-direction: row;
+    gap: 8px;
+}
+.title{
+    margin-bottom: 12px;
+}
+.button-flex button{
+    padding: 12px;
+    letter-spacing: -0.3px;
+    height: 52px;
+
+}
+.get-started{
+    width: 100.38px;
+    white-space: nowrap;
+}
+}

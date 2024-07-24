@@ -1,0 +1,49 @@
+@media(min-width:860px){
+    .nav-bar{
+        display: none;
+    }
+    .azure-logo-button-hidden{
+        display: none;
+    }
+    .main-top{
+        background-color: transparent;
+    }
+    .nav-bar-860{
+        display: flex;
+        align-items: center;
+        height: 54px;
+        border-bottom: 1px solid #ddd;
+    }
+    .banner{
+        position: relative;
+    }
+    .limitless-innovation-350px{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+     
+    }
+    #img1{
+        display: none;
+    }
+    .banner img{
+        object-position: center center;
+
+    }
+  
+    
+    .microsoft-logo{
+     position: static; 
+    }
+    .navbar-first-links{
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+        font-family: font2;
+    }
+}
