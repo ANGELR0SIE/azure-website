@@ -1,0 +1,2584 @@
+/* ---------------------styles for nav-bar ------------------------*/
+
+.menu-bar::before {
+    content: "";
+    font-family: font1;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    margin-left: 14px;
+    margin-right: 14px;
+    display: inline-block;
+  }
+  .menu-bar {
+    margin: 1px;
+    padding: 6px 0px 8px;
+  }
+  .search-icon {
+    flex: 1;
+  }
+  .search-icon span::before {
+    content: "";
+    font-family: font1;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 2px;
+    margin: 2px 8px 1px 9px;
+    padding: 8px 8px 8px 0;
+    line-height: 34px;
+  }
+  .microsoft-logo img {
+    height: 23px;
+  }
+  .nav-bar-860 {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    height: 53px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .microsoft-logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 2px;
+    top: 0;
+    height: 46px;
+    align-items: center;
+  }
+  /* -------------------styles-for-banner--------------------- */
+  
+  button {
+    border-color: transparent;
+  }
+  #min-width-540,
+  #min-width-860,
+  #min-width-1400 {
+    display: none;
+  }
+  .azure-logo-button-hidden {
+    display: flex;
+    height: 33px;
+    align-items: center;
+    padding: 0 16px;
+    gap: 9px;
+  }
+  #is-your-infrastructure {
+    font-size: 32px;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+  }
+  #limitless-innovation-paragraph {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 28px;
+  }
+  .azure-logo-button-hidden span {
+    font-family: font3;
+    font-size: 15px;
+    margin: opx 1px;
+    align-items: center;
+  }
+  .azure-logo-button-hidden span::after {
+    content: "";
+    font-family: font1;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 7px;
+    position: relative;
+    top: 2px;
+    left: 4px;
+    line-height: 34px;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .title {
+    color: #17253d;
+    font-size: 12px;
+    font-family: font3;
+    margin-bottom: 12px;
+    letter-spacing: 0.96px;
+    font-weight: 400;
+  }
+  
+  .main-head {
+    font-family: font3;
+    color: #0e1726;
+    font-weight: 400;
+    /* letter-spacing: -2.4px !important; */
+    line-height: 32px;
+  }
+  .paragraph {
+    font-size: 18px;
+    font-family: font2;
+    color: #17253d;
+    margin-top: 16px;
+    padding-right: 16px;
+    /* letter-spacing: -0.54px; */
+    letter-spacing: -0.6px;
+    /* line-height: 28px; */
+    line-height: 32px;
+  }
+  #limitless-innovation-paragraph {
+    font-size: 18px;
+    line-height: 28px !important;
+  }
+  .limitless-innovation-div-2 .main-head {
+    font-size: 32px;
+    line-height: 56px;
+  }
+  .button-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .get-started {
+    background: #0078d4;
+    color: #fff;
+  }
+  .try-azure {
+    background: #89c402;
+    color: #000;
+  }
+  .button-flex button {
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-family: font3;
+    font-size: 15px;
+    letter-spacing: -0.3;
+    border: 2px solid transparent;
+    height: 52px;
+  }
+  .button-flex span {
+    position: relative;
+    bottom: 2px;
+    line-height: 22px;
+  }
+  .main-top {
+    padding-bottom: 56px;
+    min-height: 580px;
+    background: #e7f3fa;
+  }
+  .limitless-innovation-350px {
+    padding: 0 16px;
+    margin-top: 33px;
+  }
+  .spacer-height-2rem {
+    margin-top: 38px;
+  }
+  
+  /* -----------------------styles-for sticky-nav---------------- */
+  
+  .sticky-nav-350px {
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(34, 27, 27, 0.12) 0px 0px 2px 0px,
+      rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
+    background-color: rgb(254, 254, 254);
+    align-items: center;
+  }
+  .dropdown-nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 4px solid rgb(0, 103, 184);
+    margin: 4px;
+  }
+  .dropdown-nav span {
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    color: rgb(0, 66, 117);
+    font-family: font3;
+    padding: 12px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .dropdown-nav ::after {
+    content: "";
+    position: absolute;
+    right: 15;
+  
+    top: 36%;
+    transform: translateY(-50%);
+    border: solid rgb(0, 66, 117);
+    border-width: 0 0.5px 0.5px 0;
+    display: inline-block;
+    padding: 3.5px;
+    transform: rotate(45deg);
+  }
+  .sticky-nav-350px .try-azure {
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-family: font3;
+    font-size: 15px;
+    border: 2px solid transparent;
+  }
+  .try-azure span {
+    font-family: font3;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+  }
+  .sticky-nav-860 {
+    display: none;
+  }
+  
+  /*--------------------- styles for containers ---------------------------------*/
+  
+  h3 {
+    padding: 0;
+    margin: 0;
+  }
+  .featured-news {
+    padding: 56px 0;
+  }
+  .container-padding-12px {
+    padding: 0 16px;
+  }
+  .container-head-row {
+    display: flex;
+  }
+  .container-head-column {
+    padding: 0 4px;
+  }
+  .container-head-layout {
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+  }
+  .container-cards-margin {
+    margin-left: -4px;
+    margin-top: 32px;
+  }
+  .container-cards-grid {
+    margin: 0 4px;
+    display: grid;
+    grid-gap: 8px;
+  }
+  .container-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(230, 242, 251);
+    border-radius: 16px;
+    box-shadow: 0px 2px 5px 1px rgb(208, 213, 216);
+    background-color: rgb(254, 254, 254);
+  }
+  .containerr-image-featured {
+    padding: 0 8px;
+    padding-top: 8px;
+  }
+  .feautured-img-flex {
+    display: flex;
+  
+    max-width: 100%;
+  }
+  .feautured-img-flex img {
+    object-fit: fill;
+    /* height: inherit; */
+    border-radius: 8px;
+    max-width: 100%;
+    aspect-ratio: 1.77778/1;
+  }
+  .container-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    padding-top: 18px;
+  }
+  .container-content-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  .container-content-head h3 {
+    letter-spacing: -0.54px;
+    font-size: 18px;
+    color: rgb(14, 23, 38);
+    font-family: font3;
+  }
+  .container-paragraph {
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .button-link-flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+    column-gap: 8px;
+    height: 35px;
+    align-items: center;
+  }
+  .button-link-flex span {
+    color: rgb(0, 68, 117);
+    font-size: 14px;
+    letter-spacing: -0.48;
+    padding-top: 2px;
+    font-family: font3;
+  }
+  .container-button {
+    display: flex;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    padding: 8px;
+    background-color: rgb(0, 120, 212);
+    height: 35px;
+    width: 34px;
+    box-sizing: border-box;
+  }
+  .container-button span {
+    display: flex;
+    align-items: center;
+  }
+  .container-button ::before {
+    content: "";
+    font-family: font1;
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    left: 2px;
+  }
+  .main-head {
+    font-size: 24px;
+  }
+  .solutions.container-cards-margin {
+    margin-top: 24px;
+  }
+  .scroll {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+  .scroll-button {
+    color: rgb(0, 66, 117);
+    border-radius: 100px;
+    background-color: rgba(0, 85, 151, 0.1);
+    margin-right: 8px;
+    padding: 8px 16px;
+    white-space-collapse: collapse;
+  }
+  .scroll-button {
+    text-wrap: nowrap;
+    white-space-collapse: collapse;
+    font-size: 15px;
+    font-family: font3;
+  }
+  .scroll #selected {
+    color: #fff;
+    background-color: rgb(0, 85, 151);
+  }
+  .solutions-scroll-list {
+    padding: 0 4px;
+    margin-top: 24px;
+  }
+  .sol-scroll-ul {
+    display: flex;
+    flex-direction: column;
+  }
+  hr {
+    display: none;
+  }
+  .sol-scroll-ul-head {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .sol-scroll-ul-head {
+    font-family: font3;
+    font-size: 18px;
+  }
+  .sol-scroll-ul-head::after {
+    content: "";
+    font-family: font1;
+    right: 15;
+    top: 50%;
+   font-size: 16px;
+    color: solid rgb(0, 66, 117);
+    /* transform: rotate(225deg); */
+    justify-self: flex-end;
+  }
+  #first-child-sol::after{
+    transform: rotate(180deg);
+    justify-self: flex-end;
+  }
+  .sol-scroll-body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+  }
+  .link-text {
+    margin-bottom: 24px;
+    text-decoration: underline;
+  }
+  .link-text span {
+    color: rgb(0, 66, 117);
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    font-family: font3;
+  }
+  .container-image-play-btn {
+    position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .container-image-sol img {
+    border-radius: 16px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .container-play-button-sol {
+    padding: 12px;
+    position: absolute;
+    background-color: rgb(0, 120, 212);
+    border: 2px solid transparent;
+    border-radius: 8px;
+  }
+  .container-play-button-sol::after {
+    content: "";
+    font-family: font1;
+    font-size: 16px;
+    color: #fff;
+    z-index: 3;
+  }
+  .list-padding-sol .sol-scroll-ul-head {
+    border-top: 1px solid rgb(14, 23, 38);
+    padding: 24px 0;
+  }
+  .solutions-scroll-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .solutions-scroll-list .button-link-flex {
+    margin: 0;
+  }
+  .products-and-services {
+    padding: 56px 0;
+  }
+  .pr-ser-body {
+    padding: 0 4px;
+  }
+  .pr-ser-body-padding {
+    margin-top: 32px;
+  }
+  .pr-ser-body-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -4px;
+    gap: 12px;
+  }
+  .cards {
+    padding: 0 4px;
+  }
+  .cards-grid {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    box-shadow: 0px 2px 5px 1px rgb(208, 213, 216);
+    border: 1px solid rgb(230, 242, 251);
+    border-radius: 16px;
+  }
+  .card-padding {
+    padding: 16px;
+  }
+  .card-flex {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+  }
+  .card-image {
+    border: 1px solid rgb(230, 242, 251);
+    border-radius: 8px;
+    display: flex;
+    max-width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-image img {
+    object-fit: fill;
+    max-height: 24px;
+    max-width: 24px;
+  }
+  .card-cotent-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .card-content-head {
+    font-family: font3;
+    font-size: 16px;
+  }
+  .gartner {
+    padding: 48px 0;
+  }
+  .gartner-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+    border: 1px solid rgb(230, 242, 251);
+    border-radius: 16px;
+    box-shadow: 0px 2px 5px 1px rgb(208, 213, 216);
+    background-color: rgb(254, 254, 254);
+  }
+  .gartner-image-container {
+    padding: 12px;
+    padding-bottom: 0;
+    padding-top: 8px;
+  }
+  .gartner-image-container img {
+    border-radius: 8px;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .gartner-content {
+    display: flex;
+    padding: 16px;
+  
+    flex-direction: column;
+    row-gap: 32px;
+    justify-content: space-around;
+  }
+  .gartner-content-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .gartner-content-head {
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    font-size: 24px;
+    font-family: font2;
+  }
+  .container-body-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .gartner-button {
+    display: flex;
+    align-items: center;
+    width: 119.594px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 12px;
+    background-color: rgb(0, 120, 212);
+  }
+  .gartner-button span {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    padding-bottom: 2px;
+    font-family: font3;
+  }
+  #visible-860px-li {
+    display: none;
+  }
+  .gartner-content {
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    gap: 32px;
+    line-height: 24px;
+  }
+  .empty-flex {
+    display: flex;
+  }
+  .Resources-by-role .container-head-layout {
+    margin-bottom: 24px;
+    padding-top: 48px;
+    text-align: center;
+  }
+  .Resources-by-role .main-head {
+    font-size: 28px;
+  }
+  .res-rol-scroll {
+    width: 100%;
+  }
+  .res-rol-scroll ul {
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefefe;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+  .res-rol-scroll li {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    border-left: 1.5px solid #a9b1bc;
+    align-items: center;
+    column-gap: 26px;
+    padding: 11px 16px 13px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-wrap: nowrap;
+    width: 220px;
+  }
+  .Resources-by-role .container-head-row {
+    display: block;
+  }
+  .res-selected {
+    border-bottom: 4px solid #0078d4;
+  }
+  .res-rol-next-button {
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-right: -10px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      #f5fafdd7,
+      #f5fafdef,
+      #f5fafd,
+      #f5fafd
+    );
+    position: absolute;
+    right: 10px;
+    padding: 13px 0;
+    margin-top: 10px;
+    padding-left: 60px;
+    padding-right: 10px;
+  }
+  .image-heading-resourses {
+    padding-bottom: 48px;
+    padding-top: 24px;
+  }
+  .res-rol-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+  }
+  .res-sol-body-head span {
+    font-size: 20px;
+    font-family: font;
+  }
+  .res-rol-flex .button-link-flex {
+    margin-top: 0;
+  }
+  .image-resoureces {
+    border-radius: 16px;
+    border-bottom: 1px solid transparent;
+    margin-top: 24px;
+    padding: 16px;
+  }
+  .image-resoureces img {
+    border-radius: 8px;
+    object-fit: fill;
+    max-width: 100%;
+  }
+  .Resources-by-role {
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-Interactive-Demo-BG?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1390&qlt=100&fmt=png-alpha&fit=constrain);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .explore-globe {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: font3;
+    font-size: 15px;
+    line-height: 22px;
+  
+    font-weight: 500;
+    color: #0e1726;
+    padding: 13px 18px 17px 18px;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #b3daf0;
+  }
+  .explore-globe span {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+  }
+  .azure-global-paragraph {
+    font-size: 18px;
+    color: #d6e9f3;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+    font-family: font2;
+  }
+  .azure-global-head {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1.6px;
+    color: #fff;
+    font-family: font3;
+  }
+  .global-contents {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: 18px;
+    overflow: hidden;
+  
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  .azure-global {
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-AzureRegions-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=983&qlt=95&fmt=png-alpha&fit=constrain);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+  }
+  .next-step-head {
+    font-size: 28px;
+    font-family: font2;
+    text-align: center;
+  }
+  
+  .next-step-grid {
+    margin-top: 32px;
+    padding: 0 4px;
+    gap: 8px;
+    display: grid;
+  }
+  .next-step .container-padding-12px {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .next-step-card {
+    border-radius: 16px;
+    border: 1px solid rgb(230, 242, 251);
+    padding: 16px;
+    background-color: #fff;
+  }
+  .next-step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .next-step-card-head {
+    font-family: font3;
+    font-size: 18px;
+  }
+  .next-step {
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-3up-icon-card-BG?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1648&qlt=100&fmt=png-alpha&fit=constrain);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .customer-scrollable-container {
+    margin-left: -4px;
+    margin-top: 24px;
+    padding: 0 4px;
+  }
+  .customer-scrollable-container-flex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 100%;
+    gap: 0.75rem;
+    padding: 1px 6px 1px 0;
+  }
+  .scrollable-card {
+    width: 100%;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  .scrollable-card-padding {
+    padding: 4px;
+  }
+  .scrollble-card-flex {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
+      rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+  }
+  .scrollable-card-image-container {
+    max-width: 100%;
+    padding: 8px;
+    padding-bottom: 0;
+  }
+  .scrollable-card-image-container img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 16px;
+  }
+  .for-1440 {
+    display: none;
+  }
+  .scrollable-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+  }
+  .scrollable-content-top-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .scrollable-card-logo {
+    display: flex;
+    height: 76px;
+  }
+  .srollable-card-log-flex {
+    border-radius: 8px;
+    border: 1px solid rgb(189, 197, 210);
+  }
+  .scrollable-card-logo img {
+    object-fit: fill;
+    border-radius: 8px;
+  }
+  .scrollable-container-pragrapg {
+    letter-spacing: -1px;
+    line-height: 28px;
+    font-size: 20px;
+    font-family: font3;
+  }
+  .scrollable-container-bottom-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-wrap: break-word;
+    line-height: 24px;
+    height: 100%;
+    margin-top: 57px;
+  }
+  .link-flex-head {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .bottom-flex-head {
+    font-family: font3;
+    font-size: 16px;
+  }
+  .scrollable-link-flex {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .scrollable-link-flex ul {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .scrollable-link-flex li {
+    display: contents;
+    display: flex;
+    gap: 8px;
+  }
+  .link {
+    color: rgb(0, 103, 184);
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    font-family: font3;
+  }
+  .scrollable-card-button {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-color: rgb(0, 120, 212);
+    padding: 12px;
+    justify-content: center;
+  }
+  .scrollable-card-button span {
+    line-height: 22px;
+    padding-bottom: 2px;
+    letter-spacing: -0.3;
+    font-size: 15px;
+    font-family: font3;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .scrollable-card {
+    flex-basis: 100%;
+  }
+  .customer-stories .scroll-button {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 8px;
+    margin-top: 35px;
+    width: 100%;
+    border-radius: 24px;
+    margin-left: -20px;
+    background-color: #fff;
+  }
+  .customer-stories{
+      padding-bottom: 48px;
+  }
+  .scrollable-button-left,
+  .scrollable-button-right {
+    background-color: #fff;
+    border: 2px solid rgb(214, 215, 228);
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    height: 50px;
+    width: 50px;
+  }
+  .scrollable-button-left span::before,.scrollable-button-right::before{
+      content:"" ;
+      font-family: font1;
+      font-size: 20px;
+       color:  rgb(214, 215, 228);
+  }
+  .scrollable-button-right::before{
+      color: rgb(2, 2, 2);
+  }
+  .scrollable-button-right {
+    transform: scaleX(-1);
+    border: 2px solid rgb(2, 2, 2);
+    background-color: white;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+  }
+  .scroll-button img {
+    width: 40px;
+  }
+  .scrollable-button-left img {
+    filter: opacity(0.4);
+  }
+  .image-container {
+    padding: 0 4px;
+  
+    max-width: 100%;
+  }
+  .image-container-grid {
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 4px;
+  
+    border-radius: 16px;
+    position: relative;
+  }
+  .image-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-image: linear-gradient(
+      rgba(4, 13, 18, 0) 0%,
+      rgba(4, 13, 18, 0.8)
+    );
+  }
+  .image-area {
+    grid-area: 1/1;
+    z-index: 1;
+  
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .image-area img {
+    object-fit: cover;
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 21/9;
+    grid-area: 1/1;
+  }
+  .image-container-content {
+    position: absolute;
+    z-index: 1;
+    padding: 16px;
+  }
+  .image-container-contenx-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .image-container-contenx-head h3 {
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    font-family: font2;
+    color: #fff;
+  }
+  .image-container-content-paragraph {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    margin: 0;
+    color: #fff;
+  }
+  .image-container-content-button {
+    color: rgb(23, 37, 61);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    border-bottom: 2px solid transparent;
+    padding: 12px;
+    justify-content: center;
+    background-color: rgb(179, 218, 240);
+  }
+  .image-container-content-button span {
+    padding-bottom: 2px;
+    font-size: 15px;
+    text-align: center;
+    font-family: font3;
+  }
+  .button-cards-customer-stories {
+    display: none;
+  }
+  .language-flex {
+    align-items: flex-start;
+  }
+  .language-flex li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .language-flex li img {
+    height: 22.2px;
+    margin-left: -2px;
+  }
+  .language-flex li span {
+    margin-bottom: 3px;
+    margin-left: 1.5px;
+    margin-right: -4px;
+    font-family: font2;
+    text-wrap: nowrap;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #757575;
+    cursor: pointer;
+  }
+  .links-flex {
+    padding-left: 0px;
+    justify-content: flex-start;
+    column-gap: 13px;
+    row-gap: 6px;
+    flex-wrap: wrap;
+  }
+  .links-flex li {
+    font-family: font2;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #757575;
+    cursor: pointer;
+    min-width: max-conten;
+  }
+  
+  .get-azure-app-black {
+    padding: 24px 16px;
+  }
+  .padding-get-azure-app {
+    padding: 0 4px;
+  }
+  .azure-app-get-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* ----------------------blue-log--------------------- */
+  
+  .blue-logo {
+    min-height: 40px;
+    margin: -8px;
+  }
+  .blue-logo-padding {
+    background-color: rgb(230, 230, 230);
+    border-radius: 3.2px;
+    border-radius: 2px solid transparent;
+    margin: 8px 0;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+    font-size: 15px;
+    font-family: font3;
+  }
+  .blue-logo-padding img {
+    margin-right: 8px;
+    aspect-ratio: 24/24;
+    max-width: 100%;
+    height: 24px;
+  }
+  .social-media {
+    margin-left: 12px;
+  }
+  .social-media-padding {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  
+    display: flex;
+  }
+  .instagram {
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+  }
+  .linked-in {
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+  }
+  /* --------background-for-each-containers----------- */
+  .featured-news,
+  .products-and-services,
+  .gartner,
+  .Resources-by-role {
+    background: rgb(244, 250, 253);
+  }
+  .solutions {
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=995&qlt=100&fmt=png-alpha&fit=constrain");
+  }
+  
+  /*-------------------- footer----------------- */
+  
+  footer {
+      padding-bottom: 33px;
+      width: 100%;
+      background-color: #f2f2f2;
+      display: grid;
+      place-items: center;
+      /* padding-top: 36px; */
+    }
+    .footer-content-grid {
+      grid-template-columns: 1fr;
+      display: grid;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1328px;
+      box-sizing: border-box;
+      margin-bottom: 9px;
+      /* row-gap: 44px; */
+      padding: 0px 12px;
+    }
+    .footer-content-sub-grid {
+      padding: 0 12px;
+      display: flex;
+      flex-flow: column;
+      /* gap: 16px; */
+    }
+    .footer-content-sub-grid li {
+      min-width: 1px;
+      font-family: font2;
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: normal;
+      font-weight: 400;
+      color: #757575;
+      cursor: pointer;
+      padding: 8px 0;
+    }
+    .footer-content-sub-grid-head {
+      font-family: font3 !important;
+      font-size: 15px !important;
+      line-height: 20px !important;
+      letter-spacing: normal;
+      font-weight: 500;
+      color: #616161;
+      cursor: auto;
+      padding: 36px 0 4px !important;
+      padding: 36px 0 4px ;
+    }
+    .footer-bottom-grid {
+      display: flex;
+      gap: 15px;
+      padding: 21px 24px 16px;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100%;
+      max-width: calc(1600px + 10%);
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+    .language-flex {
+      display: flex;
+      flex-flow: column;
+      align-self: flex-start;
+      align-items: flex-start;
+    }
+    .links-flex {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* padding-right: 24px; */
+      /* margin-bottom: 2px; */
+      flex-wrap: wrap;
+      padding-left: 0px;
+      justify-content: flex-start;
+      column-gap: 13px;
+      row-gap: 6px;
+    }
+  
+  
+  
+  
+  
+  
+  @media (min-width: 350px) and (max-width: 480px) {
+    .image-container-grid {
+      height: 220px;
+    }
+  }
+  @media (min-width: 540px) {
+    #min-width-540 {
+      display: block;
+    }
+    #img1 {
+      display: none;
+    }
+    .limitless-innovation-350px {
+      padding: 0 64px;
+      margin-top: 32px;
+    }
+    .main-top {
+      /* padding-top: 96px; */
+      padding-bottom: 58px;
+      margin-top: 1px;
+      /* padding-bottom: 10px; */
+      min-height: 580px;
+      background: #e7f3fa;
+    }
+    .button-flex {
+      flex-direction: row;
+      gap: 8px;
+    }
+    .title {
+      margin-bottom: 12px;
+    }
+    .limitless-innovation-div-2 .main-head {
+      line-height: 40px;
+    }
+    .button-flex button {
+      padding: 12px;
+      letter-spacing: -0.3px;
+      height: 52px;
+    }
+    .get-started {
+      width: 100.38px;
+      white-space: nowrap;
+    }
+    .button-flex span {
+      bottom: 1px;
+    }
+    .container-padding-12px {
+      padding: 0 64px;
+    }
+    .explore-globe {
+      width: 142.91px;
+      text-wrap: nowrap;
+    }
+    .Resources-by-role {
+      background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-Interactive-Demo-BG?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1968&qlt=100&fmt=png-alpha&fit=constrain);
+      background-position: center;
+      background-size: cover;
+    }
+    .next-step {
+      background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-3up-icon-card-BG?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1648&qlt=100&fmt=png-alpha&fit=constrain);
+      background-position: center;
+      background-size: cover;
+    }
+    .solutions {
+      background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=995&qlt=100&fmt=png-alpha&fit=constrain, https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1990&qlt=100&fmt=png-alpha&fit=constrain 2x");
+    }
+  
+    .footer-content-grid {
+      overflow: hidden;
+      grid-template-columns: 1fr 1fr 1fr;
+      /* row-gap: 44px; */
+    }
+    footer {
+      padding-bottom: 3px;
+    }
+    .links-flex {
+      margin-left: 6px;
+    }
+  
+    .image-container-grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .azure-app-get-flex {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 5px;
+    }
+    .blue-logo {
+      text-wrap: nowrap;
+      max-width: 227.58px;
+    }
+    .footer-content-sub-grid-head {
+      padding: 36px 0 4px !important;
+    }
+  }
+  @media (min-width: 860px) {
+    .nav-bar {
+      display: none;
+    }
+    .azure-logo-button-hidden {
+      display: none;
+    }
+    header {
+      line-height: normal;
+      letter-spacing: normal;
+      font-size: 13px;
+      height: 54px;
+      margin-bottom: 2px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    .nav-bar-860 {
+      display: flex;
+      position: relative;
+      align-items: center;
+      height: 100%;
+      margin: 0 auto;
+      max-width: 1600px;
+      box-sizing: border-box;
+    }
+    .microsoft-logo {
+      position: static;
+    }
+    .microsoft-logo img {
+      padding-top: 12px;
+      padding-bottom: 16px;
+      padding-right: 19px;
+      padding-left: 10px;
+    }
+    .azure-title::before {
+      content: "";
+      border-left: 2px solid #000;
+      position: absolute;
+      top: 15px;
+      height: 24px;
+      width: 2px;
+      margin-left: 7px;
+    }
+    .azure-title {
+      margin-top: -3px;
+    }
+    .azure-title span {
+      margin-left: 18px;
+      margin-top: 1px;
+      height: 54px;
+      padding-left: 10px;
+      padding-right: 6px;
+      padding-top: 14px;
+      padding-bottom: 16px;
+      width: 63.1719px;
+      color: rgb(38, 38, 38);
+    }
+    .azure-title span {
+      font-size: 18px;
+      font-family: font3;
+      margin-top: -3px;
+    }
+    .nav-bar-div-nav {
+      height: 100%;
+      white-space: nowrap;
+      padding-left: 2px;
+      padding-right: 1px;
+      float: left;
+      flex: 1 1 auto;
+    }
+    .navbar-first-links {
+      padding: 0;
+      list-style: none;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      /* margin-left: 1px; */
+    }
+    .navbar-first-links li {
+      display: inline;
+      word-break: break-word;
+      padding: 0;
+      margin: 0;
+      color: rgb(38, 38, 38);
+      font-size: 13px;
+  
+    }
+    .staitic-li {
+      box-sizing: border-box;
+      color: #262626;
+      font-family: font2;
+    }
+    .li-txt {
+      margin-left: 1px;
+      display: inline-block;
+      border-bottom: solid 1px transparent;
+  
+      padding: 16px 26.5px 16px 12px;
+      margin-top: 2px;
+      margin-right: -10px;
+      height: 51px;
+      box-sizing: border-box;
+    }
+    .li-txt::after {
+      content: "";
+      position: relative;
+      font-size: 8px;
+      font-family: font1;
+      font-weight: 700;
+      left: 7;
+      top: 1;
+    }
+    .navbar-first-links .pricing {
+      /* padding: 16px 21px 16px 12px; */
+    }
+    /* .navbar-first-links li::after {
+        content: "";
+        position: relative;
+        font-size: 8px;
+        font-family: font1;
+        font-weight: 700;
+        left: 7;
+        top: 1;
+      } */
+    .nav-bar-flex-for-search-to-sign-in {
+      width: 48px;
+    }
+    .search-icon-form {
+      float: left;
+      margin-top: 6px;
+      max-width: 100%;
+      width: auto;
+      min-width: 45px;
+      position: relative;
+      height: 38px;
+      margin-right: 10px;
+    }
+    .search-icon {
+      border: none;
+      padding-bottom: 30px;
+  
+      padding: 6px;
+      margin: 2px 2px 1px 1px;
+      background-color: transparent;
+      margin-right: 6px;
+      margin-top: 0;
+      /* padding-top: 15px; */
+      height: 32px;
+      width: auto;
+      line-height: 18px;
+      margin-left: 6px;
+      position: absolute;
+      float: left;
+    }
+    .search-icon::after {
+      margin-left: 2px;
+      /* padding-left: 0px;
+      padding-right: 16px; */
+      /* padding-bottom: 0; */
+      display: inline-block;
+      position: relative;
+      box-sizing: border-box;
+    }
+  
+  .more{
+    display: none !important;
+  }
+  
+    .nav-bar-2nd-link {
+      display: none;
+    }
+    #min-width-540 {
+      display: none;
+    }
+    #min-width-860 {
+      display: block;
+    }
+  
+    .azure-logo-button-hidden {
+      display: none;
+    }
+    #is-your-infrastructure {
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -2;
+    }
+    .main-top {
+      margin-top: 0;
+      position: relative;
+      height: fit-content;
+      padding-bottom: 0;
+      height: 628px;
+    }
+    .banner {
+      position: absolute;
+      display: block;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      height: 628px;
+      max-height: 100%;
+    }
+    .banner-img-div {
+      display: inline;
+      max-width: 100%;
+      height: 100%;
+      object-fit: fill;
+    }
+    picture {
+      display: inline;
+      object-fit: fill;
+    }
+    .banner img {
+      box-sizing: border-box;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      height: 628px;
+    }
+    .limitless-innovation-350px {
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      /* margin-left: -8px; */
+      /* top: 17%; */
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 0;
+      max-width: 100%;
+      flex-grow: 1;
+      padding: 0 8px;
+      position: relative;
+    }
+    .container {
+      height: fit-content;
+      display: flex;
+      /* min-height: 388px; */
+      align-items: center;
+      /* min-height: 300px; */
+      row-gap: 8px;
+    }
+    .limitless-innovation-content {
+      flex-basis: 49%;
+      flex-basis: calc(50% - 8px) !important;
+      flex: 0 0 calc((100% - 1rem) / 2);
+    }
+    .limitless-innovation-div {
+      align-items: flex-start;
+      /* height: 376px; */
+      justify-content: flex-start;
+      color: #0e1726;
+    }
+    .empty-div-50 {
+      flex-basis: calc(50%-8px);
+      display: flex;
+    }
+    .button-flex {
+      margin-top: 32px;
+      gap: 8px;
+    }
+    .get-started {
+      padding: 10px 16px;
+      width: 108.38px;
+      padding-bottom: 14px;
+    }
+  
+    .try-azure {
+      width: 150.08px;
+    }
+  
+    .main-head {
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -2px;
+    }
+    .limitless-innovation-div .title {
+      margin-bottom: 16px;
+    }
+    .title {
+      /* margin-bottom: 16px; */
+      margin-bottom: 8px;
+    }
+    .paragraph {
+      margin-top: 24px;
+      padding-right: 48px;
+    }
+  
+    .main-top {
+      /* padding: 100px 0;
+        padding-bottom: 0px;
+        min-height: 530px;
+        min-height: 628px;
+        height: max-content; */
+      /* background-color: #0078d4; */
+    }
+    .banner {
+      /* right: 0;
+        top: 54.4px; */
+      /* max-height: 100%;
+          min-height: 100%; */
+    }
+    .main-top {
+      /* margin-top: 2px;
+        height: 580px;
+        padding-top: 0; */
+    }
+    .limitless-innovation-350px {
+      box-sizing: border-box;
+      margin-top: 0px;
+      padding: 0 56px;
+      display: flex;
+      align-items: center;
+      height: inherit;
+      justify-content: center;
+      max-width: 1250px;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 96px;
+      padding-bottom: 96px;
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+    .spacer-bottom-container {
+      margin-top: 48px;
+    }
+    .limitless-innovation-content {
+      flex-basis: calc(50%-8px);
+    }
+    .limitless-innovation-content {
+      display: flex;
+      /* align-items: center; */
+      flex-direction: column;
+      justify-content: center;
+      /* height: 100%; */
+      height: fit-content;
+    }
+    .limitless-innovation-div-2 {
+      height: fit-content;
+    }
+    .spacer-height-2rem {
+      display: none;
+    }
+    .sticky-nav-860 {
+      display: flex;
+      align-items: center;
+      padding: 0 56px;
+      position: sticky;
+      z-index: 1000;
+      top: 0;
+      justify-content: space-between;
+      max-height: 108px;
+      height: 104px;
+    }
+    .nav-bar-flex-for-search-to-sign-in {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+    /* .search-icon {
+        display: flex;
+        justify-content: flex-end;
+      } */
+    .som {
+      position: sticky;
+      z-index: 1000;
+      top: 0;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      border-top: 1px solid #ddd;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
+        rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
+      /* height: 56px; */
+    }
+    .sticky-nav-350px {
+      display: none;
+    }
+    .sticky-nav-list {
+      flex: 1;
+      display: flex;
+      column-gap: 44px;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      line-height: 24px;
+      height: 100%;
+  
+    }
+    .sticky-nav-list :first-child::after{
+      content: "";
+      width: 100%;
+      height:4px ;
+      justify-self: flex-end;
+      background: #0078d4;
+      border-radius: 2px;
+      margin-top: 14px;
+      }
+      .sticky-nav-list :last-child{
+        margin-bottom: 14px;
+        margin-top: 8px;
+        padding-left: 0;
+      }
+    .sticky-nav-list li {
+      color: rgb(0, 66, 117);
+      white-space: nowrap;
+      font-size: 14px;
+      font-family: font3;
+      font-weight: 600;
+      /* height: 40px; */
+      display: flex;
+      flex-direction: column;
+      /* margin-bottom: 10px; */
+      align-items: flex-end;
+      letter-spacing: -0.48px;
+      line-height: 24px;
+      height: fit-content;
+    }
+  
+  
+    .selected,.sticky-nav-list li{
+     margin-top: 13px;
+     padding-left: 4px;
+  
+     box-sizing: border-box;
+    }
+     #sticky-nav-button {
+      border: 2px solid transparent;
+      padding: 4px 12px;
+      border-radius: 8px;
+      width: 133.203px;
+      height: 58px;
+      margin-bottom: 2px;
+    }
+    #sticky-nav-button span {
+      font-size: 15px;
+      letter-spacing: -0.3px;
+      line-height: 22px;
+      padding-bottom: 2px;
+      text-align: center;
+      text-wrap: wrap;
+      position: relative;
+   bottom: 1px;
+    }
+    .container-cards-grid {
+      grid-gap: 16px;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container-padding-12px {
+      padding: 0 54px;
+    }
+    .section-container .main-head {
+      font-size: 24px;
+      letter-spacing: -1.2px !important;
+      line-height: 32px;
+    }
+    .featured-news {
+      padding: 96px 0;
+    }
+  
+    .solutions .container-head-column {
+      flex-basis: calc(50% - 8px);
+    }
+    .solutions .main-head-empty-div {
+      display: flex;
+    }
+    .container-cards-col {
+      padding: 0 8px;
+    }
+    .solutions .scroll-button {
+      padding: 8px 24px;
+    }
+    #visible-860px-li {
+      display: block;
+    }
+    #hidden-860-li {
+      display: none;
+    }
+    .scroll-flex {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .sol-scroll-ul {
+      flex: 1;
+      flex-basis: calc(33%-8px);
+      max-height: 492px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .image-container {
+      flex: 2;
+    }
+    .sol-scroll-ul li {
+      margin-left: 48px;
+    }
+    .container-image-play-btn {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      position: static;
+    }
+    .sol-image-last-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+    }
+    .container-image-sol img {
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 3/2;
+      border-radius: 16px;
+    }
+    .container-play-button-sol {
+      position: absolute;
+      padding: 14px;
+      background-color: #0078d4;
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sol-scroll-ul-head {
+      justify-content: left;
+      gap: 10px;
+    }
+    .container-play-button-sol img {
+      width: 20px;
+      height: 20px;
+    }
+    .container-content {
+      padding: 24px;
+    }
+    .container-content-flex {
+      gap: 24px;
+    }
+    .container-paragraph {
+      padding-right: 24px;
+    }
+    .button-link-flex {
+      margin-top: 48px;
+    }
+    .button-link-flex span {
+      margin-bottom: 2px;
+      padding-top: 0px;
+    }
+    .cards-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+    }
+    .list-padding-sol .sol-scroll-ul-head {
+      padding: 32px 0;
+    }
+    .solutions-scroll-list {
+      gap: 32px;
+    }
+    .sol-scroll-body {
+      padding-bottom: 0;
+    }
+    .products-and-services {
+      padding: 96px 0;
+    }
+    .card-padding {
+      padding: 24px;
+    }
+    .card-flex {
+      gap: 16px;
+    }
+    .card-cotent-flex {
+      gap: 16px;
+    }
+    .link-text {
+      margin-bottom: 2px;
+    }
+    .card-padding {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 233px;
+    }
+    .pr-ser-body-flex {
+      gap: 16px;
+    }
+    .gartner-flex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+      min-height: 512px;
+      /* height: 100%; */
+      max-height: 504.05px;
+      padding: 8px;
+      border-radius: 25px;
+      max-width: 100%;
+    }
+    .gartner-image-container {
+      order: 1;
+      width: 100%;
+      height: 100%;
+    }
+    .image-container-content-button {
+      width: 165.2px;
+    }
+    .gartner-image-container img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+    }
+    .gartner-content {
+      padding-right: 56px;
+    }
+    .gartner-content .container-paragraph {
+      padding: 0;
+    }
+    .azure-global-head {
+      font-size: 40px;
+      font-family: font2;
+    }
+    .global-contents {
+      padding: 96px 56px !important;
+    }
+    .azure-global-paragraph {
+      padding: 0 48px;
+    }
+    .image-resoureces {
+      width: 66.6%;
+      margin: 0 auto;
+      margin-top: 32px;
+    }
+    .Resources-by-role .main-head {
+      font-size: 30px;
+    }
+    .next-step {
+      background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-3up-icon-card-BG?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1024&qlt=100&fmt=png-alpha&fit=constrain);
+      background-position: center;
+      background-size: cover;
+    }
+    .next-step-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr !important;
+      gap: 16px;
+    }
+    .next-step-card {
+      padding: 24px;
+    }
+    .next-step-content {
+      gap: 24px;
+    }
+    .scrollble-card-flex {
+      flex-direction: row-reverse;
+    }
+    .scrollable-card-image-container img {
+      height: 100%;
+    }
+    .scrollable-card-content {
+      padding: 24px;
+  
+      max-width: 50%;
+    }
+    .scrollable-card-image-container {
+      min-width: 50%;
+      padding: 8px;
+    }
+    .scrollable-container-pragrapg {
+      overflow-wrap: break-word;
+    }
+    .customer-stories .scroll-button {
+      display: none;
+    }
+    .customer-stories {
+      padding-top: 72px;
+      padding-bottom: 72px;
+    }
+    .button-cards-customer-stories {
+      display: flex;
+      flex-direction: row;
+      border-radius: 24px;
+      margin-top: 25px;
+  
+      justify-content: center;
+    }
+    .sub-flex-button-cards {
+      display: flex;
+      border-radius: 24px;
+      border: 1px solid #ddd;
+    }
+    .logo-button-card {
+      display: flex;
+      padding: 16px;
+    }
+    .logo-button-card-imagr {
+      max-width: 100%;
+      padding: 16px;
+      border-right: 1px solid #ddd;
+      object-fit: fill;
+    }
+    .no-border {
+      border: none;
+    }
+    .logo-button-card-imagr img {
+      aspect-ratio: 2.3333/1;
+  
+      width: 84px;
+      object-fit: fill;
+    }
+    .scrollable-card-button {
+      width: 106.2px;
+    }
+    .footer-content-grid {
+      padding: 0 12px;
+      /* row-gap: 44px; */
+    }
+  
+    footer {
+      padding-bottom: 3px;
+    }
+    .links-flex {
+      justify-content: flex-end;
+    }
+    .get-azure-app-black {
+      padding: 24px 56px;
+      max-width: 1328px;
+      margin: 0 auto;
+    }
+    .solutions {
+      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain, https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1960&qlt=100&fmt=png-alpha&fit=constrain 2x");
+    }
+  
+    .links-flex {
+      margin-right: 4px;
+    }
+    .footer-bottom-grid {
+      gap: 0;
+      padding-bottom: 20px;
+    }
+    .links-flex li {
+      padding-right: 15px;
+    }
+  }
+  @media (min-width: 908px) {
+    .sticky-nav-list :nth-child(4){
+      margin-right: 20px;
+    }
+  }
+  @media (min-width: 921px) {
+    .sticky-nav-list :nth-child(4){
+      margin-right: 0px;
+    }
+    .sticky-nav-list :last-child{
+    margin-top:13px ;
+          padding-left: 4px;
+    }
+    .sticky-nav-860 {
+      height: 54px;
+    }
+    .sticky-nav-list {
+      flex-wrap: nowrap;
+    }
+    #sticky-nav-button {
+      width: 142.078;
+      text-wrap: nowrap;
+      height: 36px;
+      margin-bottom: 2px;
+    }
+    #sticky-nav-button span {
+      text-wrap: nowrap;
+      padding-bottom: 10px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .sticky-nav-list li {
+      /* padding: 8px 0; */
+      letter-spacing: -0.48px;
+    }
+    .sticky-nav-list {
+      height: fit-content;
+    }
+    .sticky-nav-860 {
+      padding: 0 58px;
+    }
+  
+    .logo-button-card-imagr img {
+      height: 45px !important;
+    }
+    .sub-flex-button-cards {
+      width: 100%;
+      flex-basis: fit-content;
+    }
+  }
+  @media (min-width: 1085px) {
+    /* .nav-bar-flex-for-search-to-sign-in {
+        display: flex;
+        align-items: center;
+        flex: 1;
+      }
+      .nav-bar-2nd-link {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-family: font2;
+        color: rgb(38, 38, 38);
+        margin-right: 5px;
+      }
+      .nav-bar-2nd-link li {
+        text-wrap: nowrap;
+        margin: 1px 4px 0px;
+        padding: 16px 8px 12px;
+      }
+      .search-icon {
+        display: flex;
+        margin-top: 3px;
+        margin-right: 11px;
+      } */
+  
+    header {
+      padding: 0 5%;
+    }
+    .nav-bar-second-div {
+      height: 100%;
+      white-space: nowrap;
+      padding-left: 2px;
+      padding-right: 1px;
+    }
+    .nav-bar-2nd-link {
+      display: block;
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      box-sizing: border-box;
+      padding-left: 2px;
+    }
+    .nav-bar-2nd-link li {
+      display: inline-block;
+      word-break: break-word;
+      padding: 0;
+      margin: 0;
+    }
+    .nav-bar-2nd-link li a {
+      border: 1px solid transparent;
+      color: #262626;
+      display: inline-block;
+      margin-top: 1px;
+      padding: 16px 8px 10px;
+      height: 48px;
+      padding-right: 4px;
+      position: relative;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: font2;
+    }
+    .search-icon {
+      height: 32px;
+      margin: 0px 6px 1px;
+      padding: 15px 9px 30px;
+      margin-right: 6px;
+      padding-top: 5px;
+      /* padding-top: 15px;
+        padding-bottom: 30px; */
+      line-height: 18px;
+      position: static;
+    }
+    .search-icon span {
+      margin-top: 0;
+      width: auto;
+      margin: 0;
+      position: static;
+      padding: 0;
+    }
+    .search-icon span::before {
+      border: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0;
+      margin-left: 2px;
+      position: relative;
+      padding: 0;
+      letter-spacing: normal;
+    }
+    .nav-bar-2nd-link .btn {
+      height: 31px;
+      margin: 1px 8px;
+      margin-top: 11px;
+      /* padding-top: 4px; */
+      line-height: 1.5px;
+    }
+    #hidden-1080 {
+      display: none;
+    }
+    #hidden-860 {
+      display: none !important;
+    }
+    #visible-860 {
+      display: block;
+    }
+    .navbar-first-links {
+      display: flex;
+      width: 260.141px;
+    }
+    .nav-bar-2nd-link button {
+      border-radius: 3px;
+      padding: 14px;
+      font-family: font3;
+      font-size: 15px;
+      border: 2px solid transparent;
+      margin-bottom: 1px;
+      margin-top: 0px;
+      padding: 0 8px;
+      padding-bottom: 10px;
+      padding-top: 4px;
+      height: 31px;
+      font-family: font2;
+      font-size: 13px;
+    }
+    .search-icon-form{
+      margin-right: 4px;
+      margin-top: 6px;
+    }
+    .get-started {
+      background: #0078d4;
+      color: #fff;
+    }
+    .nav-bar-2nd-link .get-started {
+      width: max-content;
+    }
+    .signin-button-white {
+      border: 1px solid black !important;
+      text-wrap: nowrap;
+      background-color: transparent;
+    }
+    .container-padding-12px {
+      padding: 0 56px;
+    }
+    .more {
+      display: block !important;
+    }
+    .footer-content-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      margin: 0 auto;
+      width: 100%;
+      max-width: calc(1600px + 10%);
+      max-width: 1648px;
+      padding: 0 5%;
+    }
+    .footer-bottom-grid {
+      padding: 30px 5% 18px;
+  
+      margin: 0 auto;
+      width: 100%;
+      max-width: calc(1600px + 10%);
+    }
+    .footer-content-grid :first-child {
+      padding-left: 0;
+    }
+    .footer-bottom-grid {
+      /* display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+      flex-direction: row;
+      width: 100%;
+      max-width: 1648px;
+      padding-top: 36px;
+      padding-bottom: 16px;
+      flex-wrap: wrap;
+      box-sizing: border-box; */
+    }
+    .social-media {
+      margin-left: 0;
+    }
+    .privacy-chices {
+      padding: 0;
+      margin: 0;
+    }
+    #partners {
+      padding: 0;
+    }
+    .language-flex {
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+    .get-azure-app-black {
+      padding-top: 0;
+      padding-bottom: 0;
+      padding: 0 30px;
+    }
+    .azure-app-get-flex {
+      align-items: center;
+      gap: 15px;
+    }
+  }
+  @media (min-width: 1107px) {
+    #is-your-infrastructure {
+      white-space: nowrap;
+    }
+    .column {
+      flex-direction: column;
+    }
+    .navbar-first-links .products {
+      display: flex !important;
+    }
+    .resources {
+      display: none;
+    }
+    .nav-bar-2nd-link{
+      margin-top: 1px;
+    }
+  }
+  @media (min-width: 1205px) {
+    .navbar-first-links .solutions {
+      display: flex !important;
+    }
+    .search-icon #hidden-860 {
+      display: flex;
+    }
+    .nav-bar-2nd-link .btn{
+      margin-right: 6px;
+    }
+  }
+  @media (min-width: 1286px) {
+    .navbar-first-links .pricing {
+      display: block !important;
+    }
+  }
+  @media (min-width: 1374px) {
+    .navbar-first-links .partner {
+      display: flex !important;
+    }
+  }
+  
+  
+  @media (min-width: 1440px) {
+    .limitless-innovation-350px {
+      width: 90%;
+      max-width: 1400px;
+      /* max-width: 100%; */
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer-bottom-grid {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 auto;
+      flex-direction: row;
+      width: 100%;
+      max-width: 1648px;
+      padding-top: 36px;
+      padding-bottom: 16px;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+  .container-head-layout{
+    height: 64px;
+  }
+    .container {
+      /* margin-top: 5%; */
+      max-width: 1400px !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #is-your-infrastructure {
+      font-size: 48px !important;
+      line-height: 56px;
+      letter-spacing: -2;
+    }
+    #limitless-innovation-paragraph {
+      font-size: 20px;
+      line-height: 28px !important;
+    }
+    .body-bart {
+      margin-top: -2px;
+    }
+    .products-and-services .pr-ser-body-flex {
+      flex-direction: row;
+    }
+    .products-and-services .image-container {
+      flex: none;
+    }
+    .products-and-services .image-area img {
+      object-fit: cover;
+      border-radius: 24pxpx;
+      height: 100%;
+      width: 100%;
+      aspect-ratio: 21 / 9;
+      grid-area: 1 / 1;
+    }
+    .products-and-services .image-container-grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100%;
+    }
+    .products-and-services .image-area {
+      height: 100%;
+    }
+    .products-and-services .cards .hidden-1440 {
+      display: none;
+    }
+    .products-and-services .only-for-1440 {
+      display: block;
+    }
+    .products-and-services .button-link-flex {
+      display: flex;
+    }
+    .products-and-services .cards {
+      flex: 1;
+    }
+    .container-padding-12px {
+      padding-left: 72px;
+      padding-right: 72px;
+    }
+    .container-padding-12px {
+      max-width: 1328px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .main-head {
+      font-size: 32px !important;
+    }
+    .gartner-content-head {
+      font-size: 32px;
+    }
+    .Resources-by-role .main-head {
+      font-size: 40px;
+    }
+    .logo-button-card-imagr img {
+      aspect-ratio: 2.3333/1;
+  
+      width: 100px;
+    }
+  
+    .sticky-nav-860 {
+      display: flex;
+      align-items: center;
+      padding: 0 72px;
+      max-width: 1328px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 56px;
+    }
+    .som {
+      position: sticky;
+      top: 0;
+      z-index: 2000;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      height: 55px;
+    }
+    #min-width-1400 {
+      display: block;
+    }
+    #min-width-860 {
+      display: none;
+    }
+    .solutions {
+      background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain, https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=1960&qlt=100&fmt=png-alpha&fit=constrain 2x");
+    }
+  }
+  
+  @media (min-width: 1442px) {
+      .navbar-first-links .resources {
+        display: block !important;
+      }
+      .navbar-first-links .more {
+        display: none !important;
+      }
+    }
+    @media (min-width: 1600px){
+      .limitless-innovation-350px{
+          /* max-width: 1600px; */
+          box-sizing: border-box;
+          max-width: 1400px;
+      }
+    }
+  @media (min-width: 1920px) {
+      .azure-title span {
+        margin-left: 32px !important;
+      }
+      .navbar-first-links {
+        padding-left: 10px;
+      }
+      #hidden-860 {
+        display: flex !important;
+        font-size: 13px;
+        font-family: font2;
+        color: rgb(38, 38, 38);
+        margin-right: 5px;
+      }
+      .navbar-first-links {
+        gap: 20px;
+      }
+      .nav-bar-flex-for-search-to-sign-in {
+        margin-bottom: 5px;
+      }
+      .search-icon {
+        padding-left: 32px;
+        margin-left: 10pc;
+        width: 77.77px;
+      }
+      .column{
+        /* padding: 0; */
+        
+      }
+      .container {
+        width: 100%;
+        /* margin-top
+        : 44px !important; */
+        /* padding: 0 56px; */
+        /* padding-right: 5%;
+        padding-left: 5%; */
+      }
+    }
