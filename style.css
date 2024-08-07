@@ -111,6 +111,10 @@ button {
   letter-spacing: 0.96px;
   font-weight: 400;
 }
+#is-your-infrastructure{
+  font-family: font3;
+  color: #0e1726;
+}
 
 .main-head {
   font-family: font3;
@@ -2332,7 +2336,7 @@ top: .5px;
     margin: 0 auto;
     width: 100%;
     max-width: calc(1600px + 10%);
-    max-width: 1648px;
+    /* max-width: 1648px; */
     padding: 0 5%;
   }
   .footer-bottom-grid {
@@ -2505,6 +2509,17 @@ top: .5px;
   }
 }
 @media (min-width: 1400px){
+  .container-padding-12px{
+    width: 90%;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 56px;
+    max-width: 1600px;
+  }
+  .container-head-column{
+    padding-left: 0;
+  }
 .search-icon #hidden-860{
   display: flex !important;
   z-index: 1000 !important;
@@ -2542,6 +2557,9 @@ top: .5px;
     width: 90%;
     box-sizing: content-box;
   }
+  .customer-stories{
+    box-sizing: border-box;
+  }
   .footer-bottom-grid {
     display: flex;
     justify-content: space-between;
@@ -2549,14 +2567,98 @@ top: .5px;
     margin: 0 auto;
     flex-direction: row;
     width: 100%;
-    max-width: 1648px;
-    padding-top: 36px;
-    padding-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 14px;
     flex-wrap: wrap;
     box-sizing: border-box;
   }
+  .get-azure-app-black{
+    padding: 24px 5%;
+
+
+  }
+
+  .azure-app-get-flex{
+    gap: 18px;
+  }
+  .padding-get-azure-app{
+    padding: 0;
+  }
+  .blue-logo{
+    max-width: 100%;
+  }
+  .next-step .container-padding-12px{
+    /* height: 511px;
+    box-sizing: border-box; */
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1400px; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .next-step-head{
+    font-size: 40px;
+  }
+  .blue-logo-padding{
+    height: 53.25px;
+    width: 235.58px;
+    box-sizing: border-box;
+    padding: 13px 18px;
+    letter-spacing: -0.3px;
+  }
+  footer{
+    padding-bottom: 4px;
+  }
+  .next-step-content{
+    gap: 0px;
+  }
+  .next-step-grid{
+    margin-top: 48px;
+  }
+  .instagram{
+    margin-left: 2px;
+    margin-right: 16px;
+    height: 24px;
+    width: 24px;
+  }
+  .next-step-card-head{
+    font-size: 20px;
+  }
+  .next-step .container-paragraph{
+    margin-top: 16px;
+  }
+  .blue-logo-padding img{
+    
+  }
+  .links-flex{
+    margin-bottom: 5px;
+    gap: 12px;
+  }
+  .links-flex{
+    margin-right: 9px;
+  }
+  .privacy-chices{
+    margin-left: 4px;
+    margin-right: 6px;
+  }
+  .privacy-chices img{
+    margin-right: 1px;
+    height: 16px !important;
+    width: 43px;
+  }
   .container-head-layout {
     height: 64px;
+    /* justify-content: space-between; */
+  }
+  .title{
+    margin-top: 1px;
+  }
+  .main-head{
+    margin-top: 4px;
+   height: 40px;
+   letter-spacing: -1.6px !important;
   }
   #is-your-infrastructure {
     font-size: 48px !important;
@@ -2617,9 +2719,12 @@ top: .5px;
   }
   .main-head {
     font-size: 32px !important;
+    line-height: 40px;
+
   }
   .gartner-content-head {
     font-size: 32px;
+
   }
   .Resources-by-role .main-head {
     font-size: 40px;
